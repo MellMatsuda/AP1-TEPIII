@@ -84,3 +84,7 @@ input[type="checkbox"] {
     width: 18px;
     height: 18px;
 }
+
+.checkbox-label {
+    white-space: nowrap;
+}
