@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pacientes - Clínica Saúde Total</title>
+    <link rel="icon" href="../../img/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../../styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="../../../index.html"><img src="../../img/logo.svg" alt="Logo Clínica Saúde Total" class="logo"></a>
+            <h1><a href="../../../index.html" class="site-title-link">Clínica Saúde Total</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="../../../index.html">Home</a></li>
+                    <li><a href="../servicos.html">Serviços</a></li>
+                    <li><a href="../sobre.html">Sobre</a></li>
+                    <li><a href="../contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="registration">
+            <div class="container">
+                <h2>Cadastro de Pacientes</h2>
+                <p>Preencha o formulário abaixo para se cadastrar em nosso sistema</p>
+
+                <form id="patientForm" class="registration-form">
+                    <div class="form-group">
+                        <label for="nome">Nome Completo *</label>
+                        <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail *</label>
+                        <input type="email" id="email" name="email" required placeholder="nome@email.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telefone">Telefone *</label>
+                        <input type="tel" id="telefone" name="telefone" required placeholder="(00) 00000-0000">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="dataNascimento">Data de Nascimento *</label>
+                        <input type="date" id="dataNascimento" name="dataNascimento" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="genero">Gênero *</label>
+                        <select id="genero" name="genero" required>
+                            <option value="">Selecione o gênero</option>
+                            <option value="masculino">Masculino</option>
+                            <option value="feminino">Feminino</option>
+                            <option value="outro">Outro</option>
+                            <option value="nao_informar">Prefiro não informar</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="endereco">Endereço Completo</label>
+                        <textarea id="endereco" name="endereco" placeholder="Rua, número, complemento, bairro, cidade/Estado, CEP"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Tipo de Plano de Saúde *</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="plano" value="sus" required>
+                                SUS
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="plano" value="particular">
+                                Particular
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="plano" value="convenio">
+                                Convênio
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Serviços de Interesse</label>
+                        <div class="checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="servicos" value="consulta">
+                                Consulta Médica
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="servicos" value="exames">
+                                Exames Laboratoriais
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="servicos" value="vacina">
+                                Vacinação
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="servicos" value="emergencia">
+                                Pronto Atendimento
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="termos" required>
+                            Li e aceito os <a href="#termos" class="link">termos de uso</a> e <a href="#privacidade"
+                                class="link">política de privacidade</a> *
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Cadastrar</button>
+                    <button type="reset" class="btn-secondary">Limpar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Clínica Saúde Total. Todos os direitos reservados.</p>
+            <p>Telefone: (00) 0000-0000 | Email: contato@email.com</p>
+            <p>Endereço: R. Sarmento Leite, 245, Centro Histórico, Porto Alegre/RS</p>
+        </div>
+    </footer>
+</body>
+
+</html>

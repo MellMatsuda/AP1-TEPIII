@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Clínica Saúde Total</title>
+    <link rel="icon" href="../img/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="../../index.html"><img src="../img/logo.svg" alt="Logo Clínica Saúde Total" class="logo"></a>
+            <h1><a href="../../index.html" class="site-title-link">Clínica Saúde Total</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="./servicos.html">Serviços</a></li>
+                    <li><a href="./sobre.html">Sobre</a></li>
+                    <li><a href="#contato" class="visited">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Se você tiver alguma dúvida ou precisar de mais informações, preencha o formulário abaixo:</p>
+
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="nome">Nome *</label>
+                        <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail *</label>
+                        <input type="email" id="email" name="email" required placeholder="nome@email.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem *</label>
+                        <textarea id="mensagem" name="mensagem" rows="4" required
+                            placeholder="Digite sua mensagem"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Clínica Saúde Total. Todos os direitos reservados.</p>
+            <p>Telefone: (00) 0000-0000 | Email: contato@email.com</p>
+            <p>Endereço: R. Sarmento Leite, 245, Centro Histórico, Porto Alegre/RS</p>
+        </div>
+    </footer>
+</body>
+
+</html>
