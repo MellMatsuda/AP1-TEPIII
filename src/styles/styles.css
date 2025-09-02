@@ -190,7 +190,6 @@ h2 {
 .btn-primary:focus,
 .btn-secondary:focus,
 .btn-link:focus {
-    outline: 3px solid #ffc107;
     outline-offset: 2px;
 }
 
@@ -213,10 +212,6 @@ footer p {
 
 .link:hover {
     text-decoration: underline;
-}
-
-.link:visited {
-    color: #6610f2;
 }
 
 .justify-text {
