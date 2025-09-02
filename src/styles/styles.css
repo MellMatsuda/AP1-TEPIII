@@ -187,10 +187,6 @@ h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.btn-link {
-    margin-right: 1rem;
-}
-
 .btn-primary:focus,
 .btn-secondary:focus,
 .btn-link:focus {
