@@ -50,6 +50,12 @@
         width: 100%;
     }
 
+    nav ul {
+        display: flex;
+        list-style: none;
+        gap: 0 !important;
+    }
+
     .hero h2 {
         font-size: 1.8rem;
     }
