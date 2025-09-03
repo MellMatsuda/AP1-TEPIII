@@ -127,7 +127,9 @@ h2 {
 
 .hero p,
 .registration p,
-.contact p {
+.contact p,
+.service-detail p,
+.services p {
     text-align: center;
     color: var(--gray);
     margin-bottom: 2rem;
@@ -201,10 +203,6 @@ footer {
     padding: 2rem 0;
 }
 
-footer p {
-    margin-bottom: 0.5rem;
-}
-
 .link {
     color: var(--primary-color);
     text-decoration: none;
@@ -215,5 +213,5 @@ footer p {
 }
 
 .justify-text {
-    text-align: justify;
+    text-align: justify !important;
 }
